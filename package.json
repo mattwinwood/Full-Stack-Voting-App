@@ -1,0 +1,34 @@
+{
+  "name": "full-stack-react-node-mongodb",
+  "version": "1.0.0",
+  "description": "Basic example of a full-stack application using ReactJS, Node.JS and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "ejs": "^2.5.7",
+    "eslint": "^4.12.1",
+    "express": "^4.16.2",
+    "json-loader": "^0.5.7",
+    "mongodb": "^2.2.33",
+    "node-sass-middleware": "^0.9.8",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.9.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint-plugin-react": "^7.5.1",
+    "nodemon": "^1.12.1"
+  }
+}
